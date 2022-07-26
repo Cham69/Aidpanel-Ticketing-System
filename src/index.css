@@ -108,9 +108,9 @@ button:hover{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: #D9EFFF;
   width: 95%;
-  margin: 7rem auto 1rem ;
+  margin: 2rem auto 1rem ;
 }
 .ticketsList div{
   padding: 10px;
@@ -122,8 +122,21 @@ button:hover{
   justify-content: space-between;
   width: 95%;
   margin: auto;
+  border-bottom: 1px  solid #C4C4C4;
+  background-color: #fff;
 }
 .itemContainer div{
   padding: 10px;
   justify-self:center;
+  
+}
+.adminHead{
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.filterForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

@@ -1,4 +1,5 @@
-import TicketsList from "./TicketsList"
+import TicketsList from "./TicketsList";
+import AdminHead from "./AdminHead";
 
 const AdminView = () => {
   return (
@@ -11,6 +12,7 @@ const AdminView = () => {
                 <h2 style={{color:'#fff'}}>Welcome back, Admin!</h2>
             </div>
             <div>
+                <AdminHead />
                 <TicketsList />
             </div>
         </div>
